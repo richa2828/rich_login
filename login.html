@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <body>
+            <form>
+                <label>User name</label>
+                <input type="text" id="num1" placeholder="username"><br><br>
+                <label>password</label>
+                <input type="text" id="num2" placeholder="password"><br><br>
+                <input type="button" value="login!" onclick="my()">
+                <p id="demo"></p>
+            
+            </form>
+            <script>
+                function my(){
+                var a = document.getElementById("num1").value;
+                var b = document.getElementById("num2").value;
+                if(a=="richa" && b=="pass"){
+                    document.getElementById("demo").innerHTML="welcome";
+                }
+                else{
+                    document.getElementById("demo").innerHTML="welcome not";
+                }
+            }
+            </script>
+        </body>
+    </head>
+</html>
